@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillForge</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<canvas id="stars"></canvas>
+
+<header>
+  <h1>⚒️ SkillForge</h1>
+  <p>Interactive Developer Roadmaps</p>
+
+  <div class="controls">
+    <button id="themeToggle">🌙 Night</button>
+    <button onclick="resetProgress()">Reset</button>
+    <button id="backBtn" class="hidden" onclick="goBack()">⬅ Back</button>
+  </div>
+
+  <div id="progress">Progress: <span id="progressValue">0%</span></div>
+</header>
+
+<main id="mainView"></main>
+
+<footer>
+  <h3>⚒️ SkillForge</h3>
+  <p>Level up your developer journey 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
